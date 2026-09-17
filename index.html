@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>S.K Scrap Traders | Kabadi & Scrap Dealer in Nawada</title>
+<meta name="description" content="S.K Scrap Traders - Kabadi wala, scrap dealer and scrap buyer in Nawada, Bihar. 3 branches. Available 12 hours.">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  
+  body {
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+    background: #eef4f0 radial-gradient(circle at 50% 0%, #e0efe6 0%, #edf4f0 100%);
+    background-attachment: fixed;
+    color: #1a2b22;
+    line-height: 1.6;
+  }
+  
+  /* Modern Hero Header */
+  header {
+    background: linear-gradient(135deg, #0e3022 0%, #17523a 100%);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  header::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.04) 10%, transparent 10%);
+    background-size: 24px 24px;
+    transform: rotate(15deg);
+    pointer-events: none;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+
+  .logo-svg {
+    width: 48px;
+    height: 48px;
+    fill: #4ade80;
+    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+  }
+
+  header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+
+  header p.subtitle {
+    margin: 8px 0 14px;
+    font-size: 17px;
+    opacity: 0.9;
+  }
+
+  .badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(6px);
+    color: #86efac;
+    padding: 6px 16px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    border: 1px solid rgba(134, 239, 172, 0.3);
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 28px auto;
+    padding: 0 18px;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 16px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(18, 59, 42, 0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
+  }
+
+  h2 {
+    margin-bottom: 16px;
+    color: #123b2a;
+    font-size: 22px;
+  }
+
+  /* Scrap Items Grid with Images */
+  .scrap-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 16px;
+  }
+
+  .scrap-item {
+    background: #f7faf8;
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #e2ece6;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .scrap-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  }
+
+  .scrap-item img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    display: block;
+  }
+
+  .scrap-item span {
+    display: block;
+    padding: 8px 4px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #123b2a;
+  }
+
+  .branches > div {
+    padding: 12px;
+    margin: 8px 0;
+    background: #f7faf8;
+    border-left: 4px solid #1f6b4a;
+    border-radius: 6px;
+  }
+
+  .buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-top: 14px;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 14px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    flex: 1;
+    min-width: 180px;
+  }
+
+  .call {
+    background: #123b2a;
+    color: white;
+    box-shadow: 0 4px 12px rgba(18, 59, 42, 0.25);
+  }
+  .call:hover { background: #1a523b; }
+
+  .wa {
+    background: #25d366;
+    color: white;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.25);
+  }
+  .wa:hover { background: #20bd5a; }
+
+  footer {
+    text-align: center;
+    padding: 28px;
+    color: #53645c;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-container">
+    <svg class="logo-svg" viewBox="0 0 24 24">
+      <path d="M12 2L8.5 7.5H11.5V11H12.5V7.5H15.5L12 2ZM6.3 8.3L3.5 13.2L4.8 13.9L7.1 9.8L8.4 10.5L8.9 7L5.4 7.8L6.3 8.3ZM17.7 8.3L18.6 7.8L15.1 7L15.6 10.5L16.9 9.8L19.2 13.9L20.5 13.2L17.7 8.3ZM4.5 15.5L2 19.8L3.3 20.6L5.3 17.1L10.3 20L11.1 16.5L7.7 15.8L8.2 16.7L4.5 15.5ZM19.5 15.5L15.8 16.7L16.3 15.8L12.9 16.5L13.7 20L18.7 17.1L20.7 20.6L22 19.8L19.5 15.5Z"/>
+    </svg>
+    <h1>S.K Scrap Traders</h1>
+  </div>
+  <p class="subtitle">Kabadi Wala • Scrap Dealer • Scrap Buyer in Nawada</p>
+  <p><span class="badge">🕐 Available 12 Hours</span></p>
+</header>
+
+<main class="container">
+<section class="card">
+  <h2>About Us</h2>
+  <p><b>S.K Scrap Traders</b> is a trusted kabadi and scrap business in Nawada, Bihar. Our business started in <b>2009</b> and we have 3 branches in Nawada.</p>
+  <p style="margin-top: 6px;">We buy old iron, kabadi and different types of scrap material at fair prices.</p>
+</section>
+
+<section class="card">
+  <h2>♻️ Scrap Items We Buy</h2>
+  <div class="scrap-grid">
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=300&q=80" alt="Scrap AC">
+      <span>Scrap AC</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=300&q=80" alt="Fridge Scrap">
+      <span>Fridge</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=300&q=80" alt="Book Scrap">
+      <span>Books / Paper</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=300&q=80" alt="Plastic Scrap">
+      <span>Plastic</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1605600659873-d808a13e4d2a?auto=format&fit=crop&w=300&q=80" alt="Plastic Bottle">
+      <span>Bottles</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=300&q=80" alt="Iron Scrap">
+      <span>Iron (Loha)</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=300&q=80" alt="Steel Scrap">
+      <span>Steel</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=300&q=80" alt="Copper Wire Scrap">
+      <span>Copper (Tamba)</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1615811361523-6bd03d7748e7?auto=format&fit=crop&w=300&q=80" alt="Aluminum Scrap">
+      <span>Aluminum</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=300&q=80" alt="Brass Scrap">
+      <span>Brass (Pital)</span>
+    </div>
+    <div class="scrap-item">
+      <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=300&q=80" alt="Craft & Mixed Scrap">
+      <span>Craft Scrap</span>
+    </div>
+  </div>
+</section>
+
+<section class="card">
+  <h2>🏪 Our 3 Branches</h2>
+  <div class="branches">
+    <div><b>Branch 1:</b> Ansar Nagar, Nawada, Bihar</div>
+    <div><b>Branch 2:</b> 2 Number Gate, Bhadauni, Nawada, Bihar</div>
+    <div><b>Branch 3:</b> Bareb, Patna Road, Nawada, Bihar</div>
+  </div>
+</section>
+
+<section class="card">
+  <h2>📞 Contact Us</h2>
+  <p><b>Phone:</b> 7564026465 / 6204192880</p>
+  <div class="buttons">
+    <a class="btn call" href="tel:+917564026465">📞 Call Now</a>
+    <a class="btn wa" href="https://wa.me/917564026465" target="_blank">💬 WhatsApp</a>
+  </div>
+</section>
+
+<section class="card">
+  <h2>🔎 Search Keywords</h2>
+  <p>Kabadi Wala in Nawada • Kabadi Shop in Nawada • Scrap Dealer in Nawada • Scrap Buyer in Nawada • Iron Scrap Buyer • Loha Kabadi</p>
+</section>
+</main>
+
+<footer>© 2009–2026 S.K Scrap Traders • Nawada, Bihar</footer>
+</body>
+</html>

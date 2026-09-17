@@ -1,293 +1,350 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>S.K Scrap Traders | Kabadi & Scrap Dealer in Nawada</title>
-<meta name="description" content="S.K Scrap Traders - Kabadi wala, scrap dealer and scrap buyer in Nawada, Bihar. 3 branches. Available 12 hours.">
-<style>
-  * { box-sizing: border-box; margin: 0; padding: 0; }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>S.K Scrap Traders | Best Kabadi & Heavy Scrap Dealer in Nawada</title>
+  <meta name="description" content="S.K Scrap Traders - Trusted Kabadi wala & Heavy Machinery Scrap buyer in Nawada, Bihar. Best rates for iron, metal, and industrial scrap. 3 branches.">
   
-  body {
-    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
-    background: #eef4f0 radial-gradient(circle at 50% 0%, #e0efe6 0%, #edf4f0 100%);
-    background-attachment: fixed;
-    color: #1a2b22;
-    line-height: 1.6;
-  }
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
   
-  /* Modern Hero Header */
-  header {
-    background: linear-gradient(135deg, #0e3022 0%, #17523a 100%);
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  header::before {
-    content: '';
-    position: absolute;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    background: radial-gradient(circle, rgba(255,255,255,0.04) 10%, transparent 10%);
-    background-size: 24px 24px;
-    transform: rotate(15deg);
-    pointer-events: none;
-  }
+  <style>
+    :root {
+      --primary: #0f5132;
+      --primary-hover: #0b3d26;
+      --accent: #25d366;
+      --bg: #f3f6f4;
+      --card-bg: #ffffff;
+      --text: #1d2a23;
+      --text-muted: #52635a;
+    }
 
-  .logo-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    margin-bottom: 8px;
-  }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding-bottom: 80px;
+    }
 
-  .logo-svg {
-    width: 48px;
-    height: 48px;
-    fill: #4ade80;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
-  }
+    /* Hero Header with Background Machinery Image */
+    header {
+      position: relative;
+      background: linear-gradient(rgba(11, 61, 38, 0.85), rgba(19, 93, 59, 0.9)), 
+                  url('watermarked_img_4898194046739137424.png') center/cover no-repeat;
+      color: white;
+      padding: 45px 20px 40px;
+      text-align: center;
+      border-bottom-left-radius: 24px;
+      border-bottom-right-radius: 24px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    }
+    
+    .brand-logo-container {
+      width: 90px;
+      height: 90px;
+      margin: 0 auto 12px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 50%;
+      padding: 12px;
+      backdrop-filter: blur(8px);
+      border: 2px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
 
-  header h1 {
-    font-size: 32px;
-    font-weight: 700;
-    letter-spacing: 0.5px;
-  }
+    .brand-logo-svg {
+      width: 100%;
+      height: 100%;
+    }
 
-  header p.subtitle {
-    margin: 8px 0 14px;
-    font-size: 17px;
-    opacity: 0.9;
-  }
+    header h1 { font-size: 30px; font-weight: 800; letter-spacing: -0.5px; }
+    header p { margin-top: 4px; font-size: 16px; opacity: 0.95; }
+    
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(8px);
+      color: #fff;
+      padding: 6px 16px;
+      border-radius: 50px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-top: 14px;
+      border: 1px solid rgba(255,255,255,0.3);
+    }
 
-  .badge {
-    display: inline-block;
-    background: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(6px);
-    color: #86efac;
-    padding: 6px 16px;
-    border-radius: 30px;
-    font-size: 14px;
-    font-weight: 600;
-    border: 1px solid rgba(134, 239, 172, 0.3);
-  }
+    /* Container & Content Cards */
+    .container { max-width: 800px; margin: -20px auto 0; padding: 0 16px; }
+    
+    .card {
+      background: var(--card-bg);
+      border-radius: 18px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+      border: 1px solid rgba(0,0,0,0.03);
+      overflow: hidden;
+    }
 
-  .container {
-    max-width: 900px;
-    margin: 28px auto;
-    padding: 0 18px;
-  }
+    .card-img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 16px;
+    }
 
-  .card {
-    background: rgba(255, 255, 255, 0.95);
-    border-radius: 16px;
-    padding: 24px;
-    margin-bottom: 20px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
-    border: 1px solid rgba(18, 59, 42, 0.08);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
+    h2 {
+      font-size: 20px;
+      color: var(--primary);
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
 
-  .card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 12px 26px rgba(0, 0, 0, 0.08);
-  }
+    /* Image Gallery Grid for Future Photo Uploads */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 12px;
+      margin-top: 12px;
+    }
+    .gallery-item {
+      position: relative;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      aspect-ratio: 4/3;
+    }
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .gallery-item img:hover {
+      transform: scale(1.05);
+    }
+    .gallery-caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.75));
+      color: white;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 12px 8px 6px;
+      text-align: center;
+    }
 
-  h2 {
-    margin-bottom: 16px;
-    color: #123b2a;
-    font-size: 22px;
-  }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 12px;
+      margin-top: 14px;
+    }
+    .feature-item {
+      background: #f8faf9;
+      padding: 14px;
+      border-radius: 12px;
+      text-align: center;
+      font-weight: 600;
+      font-size: 14px;
+      border: 1px solid #e2ece7;
+    }
 
-  /* Scrap Items Grid with Images */
-  .scrap-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-    gap: 16px;
-  }
+    .branch-list { display: flex; flex-direction: column; gap: 12px; }
+    .branch-item {
+      padding: 14px 16px;
+      background: #f8faf9;
+      border-left: 4px solid var(--primary);
+      border-radius: 8px;
+    }
+    .branch-item strong { font-size: 15px; color: var(--text); }
+    .branch-item p { font-size: 13px; color: var(--text-muted); }
 
-  .scrap-item {
-    background: #f7faf8;
-    border-radius: 12px;
-    overflow: hidden;
-    text-align: center;
-    border: 1px solid #e2ece6;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
+    .services-grid { display: flex; flex-wrap: wrap; gap: 8px; }
+    .service-pill {
+      background: #eaf5ef;
+      color: var(--primary);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+    }
 
-  .scrap-item:hover {
-    transform: scale(1.03);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
-  }
+    .phone-group { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 10px; }
+    .btn-action {
+      flex: 1;
+      min-width: 140px;
+      text-align: center;
+      padding: 12px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 14px;
+    }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-whatsapp { background: var(--accent); color: white; }
 
-  .scrap-item img {
-    width: 100%;
-    height: 100px;
-    object-fit: cover;
-    display: block;
-  }
+    .tags { font-size: 13px; color: var(--text-muted); line-height: 1.8; }
+    .tags span { background: #eee; padding: 3px 8px; border-radius: 4px; display: inline-block; margin: 2px; }
 
-  .scrap-item span {
-    display: block;
-    padding: 8px 4px;
-    font-weight: bold;
-    font-size: 14px;
-    color: #123b2a;
-  }
+    .sticky-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: white;
+      padding: 12px 16px;
+      box-shadow: 0 -4px 16px rgba(0,0,0,0.1);
+      display: flex;
+      gap: 12px;
+      z-index: 100;
+    }
+    
+    footer { text-align: center; padding: 20px; font-size: 13px; color: var(--text-muted); }
 
-  .branches > div {
-    padding: 12px;
-    margin: 8px 0;
-    background: #f7faf8;
-    border-left: 4px solid #1f6b4a;
-    border-radius: 6px;
-  }
-
-  .buttons {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin-top: 14px;
-  }
-
-  .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    padding: 14px 22px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    transition: all 0.2s ease;
-    flex: 1;
-    min-width: 180px;
-  }
-
-  .call {
-    background: #123b2a;
-    color: white;
-    box-shadow: 0 4px 12px rgba(18, 59, 42, 0.25);
-  }
-  .call:hover { background: #1a523b; }
-
-  .wa {
-    background: #25d366;
-    color: white;
-    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.25);
-  }
-  .wa:hover { background: #20bd5a; }
-
-  footer {
-    text-align: center;
-    padding: 28px;
-    color: #53645c;
-    font-size: 14px;
-  }
-</style>
+    @media (min-width: 768px) {
+      .sticky-bar { display: none; }
+      body { padding-bottom: 0; }
+      header h1 { font-size: 36px; }
+    }
+  </style>
 </head>
 <body>
 
 <header>
-  <div class="logo-container">
-    <svg class="logo-svg" viewBox="0 0 24 24">
-      <path d="M12 2L8.5 7.5H11.5V11H12.5V7.5H15.5L12 2ZM6.3 8.3L3.5 13.2L4.8 13.9L7.1 9.8L8.4 10.5L8.9 7L5.4 7.8L6.3 8.3ZM17.7 8.3L18.6 7.8L15.1 7L15.6 10.5L16.9 9.8L19.2 13.9L20.5 13.2L17.7 8.3ZM4.5 15.5L2 19.8L3.3 20.6L5.3 17.1L10.3 20L11.1 16.5L7.7 15.8L8.2 16.7L4.5 15.5ZM19.5 15.5L15.8 16.7L16.3 15.8L12.9 16.5L13.7 20L18.7 17.1L20.7 20.6L22 19.8L19.5 15.5Z"/>
+  <!-- Vector Custom Logo -->
+  <div class="brand-logo-container">
+    <svg class="brand-logo-svg" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="50" cy="50" r="45" fill="#25D366" fill-opacity="0.2"/>
+      <path d="M50 15 L58 30 L42 30 Z" fill="#25D366"/>
+      <path d="M50 25 C32 25 20 40 20 58 C20 65 24 73 30 78" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+      <path d="M78 50 C78 68 62 80 44 80 C37 80 29 76 24 70" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+      <path d="M70 30 L85 38 L72 48 Z" fill="#FFFFFF"/>
+      <path d="M28 72 L15 62 L28 52 Z" fill="#FFFFFF"/>
+      <text x="50" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="22" fill="#FFFFFF" text-anchor="middle">SK</text>
     </svg>
-    <h1>S.K Scrap Traders</h1>
   </div>
-  <p class="subtitle">Kabadi Wala • Scrap Dealer • Scrap Buyer in Nawada</p>
-  <p><span class="badge">🕐 Available 12 Hours</span></p>
+
+  <h1>S.K Scrap Traders</h1>
+  <p>Heavy Machinery • Kabadi Wala • Scrap Dealer in Nawada</p>
+  <div class="badge">🕒 Open Daily: 12 Hours Service</div>
 </header>
 
 <main class="container">
-<section class="card">
-  <h2>About Us</h2>
-  <p><b>S.K Scrap Traders</b> is a trusted kabadi and scrap business in Nawada, Bihar. Our business started in <b>2009</b> and we have 3 branches in Nawada.</p>
-  <p style="margin-top: 6px;">We buy old iron, kabadi and different types of scrap material at fair prices.</p>
-</section>
 
-<section class="card">
-  <h2>♻️ Scrap Items We Buy</h2>
-  <div class="scrap-grid">
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=300&q=80" alt="Scrap AC">
-      <span>Scrap AC</span>
+  <!-- About Us Card -->
+  <section class="card">
+    <h2>ℹ️ About Us</h2>
+    <p><b>S.K Scrap Traders</b> is a trusted scrap dealership operating since <b>2009</b> in Nawada, Bihar[cite: 1]. We deal in heavy machinery scrap, iron, copper, commercial dismantling, and all types of scrap materials[cite: 1].</p>
+    
+    <div class="features-grid">
+      <div class="feature-item">⚖️ Fair Weighing</div>
+      <div class="feature-item">💵 Instant Cash</div>
+      <div class="feature-item">🏗️ Heavy Crane Service</div>
+      <div class="feature-item">🚚 Home Pickup</div>
     </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=300&q=80" alt="Fridge Scrap">
-      <span>Fridge</span>
-    </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?auto=format&fit=crop&w=300&q=80" alt="Book Scrap">
-      <span>Books / Paper</span>
-    </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1530587191325-3db32d826c18?auto=format&fit=crop&w=300&q=80" alt="Plastic Scrap">
-      <span>Plastic</span>
-    </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1605600659873-d808a13e4d2a?auto=format&fit=crop&w=300&q=80" alt="Plastic Bottle">
-      <span>Bottles</span>
-    </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=300&q=80" alt="Iron Scrap">
-      <span>Iron (Loha)</span>
-    </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=300&q=80" alt="Steel Scrap">
-      <span>Steel</span>
-    </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=300&q=80" alt="Copper Wire Scrap">
-      <span>Copper (Tamba)</span>
-    </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1615811361523-6bd03d7748e7?auto=format&fit=crop&w=300&q=80" alt="Aluminum Scrap">
-      <span>Aluminum</span>
-    </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=300&q=80" alt="Brass Scrap">
-      <span>Brass (Pital)</span>
-    </div>
-    <div class="scrap-item">
-      <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=300&q=80" alt="Craft & Mixed Scrap">
-      <span>Craft Scrap</span>
-    </div>
-  </div>
-</section>
+  </section>
 
-<section class="card">
-  <h2>🏪 Our 3 Branches</h2>
-  <div class="branches">
-    <div><b>Branch 1:</b> Ansar Nagar, Nawada, Bihar</div>
-    <div><b>Branch 2:</b> 2 Number Gate, Bhadauni, Nawada, Bihar</div>
-    <div><b>Branch 3:</b> Bareb, Patna Road, Nawada, Bihar</div>
-  </div>
-</section>
+  <!-- Photo Gallery Section (Future Photo Uploads) -->
+  <section class="card">
+    <h2>📸 Our Scrap Yard & Heavy Stock Photos</h2>
+    <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 12px;">Hamare yard aur khareede hue heavy machinery / scrap ki jhalak:</p>
 
-<section class="card">
-  <h2>📞 Contact Us</h2>
-  <p><b>Phone:</b> 7564026465 / 6204192880</p>
-  <div class="buttons">
-    <a class="btn call" href="tel:+917564026465">📞 Call Now</a>
-    <a class="btn wa" href="https://wa.me/917564026465" target="_blank">💬 WhatsApp</a>
-  </div>
-</section>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <!-- Future me photo link yaha badle: src="images/maal1.jpg" -->
+        <img src="watermarked_img_4898194046739137424.png" alt="Heavy Machinery Scrap">
+        <div class="gallery-caption">Heavy Machinery Yard</div>
+      </div>
+      <div class="gallery-item">
+        <img src="watermarked_img_4898194046739137424.png" alt="Iron Scrap Stock">
+        <div class="gallery-caption">Iron Scrap Stock</div>
+      </div>
+      <div class="gallery-item">
+        <img src="watermarked_img_4898194046739137424.png" alt="Commercial Scrap Loading">
+        <div class="gallery-caption">Crane Loading Yard</div>
+      </div>
+    </div>
+  </section>
 
-<section class="card">
-  <h2>🔎 Search Keywords</h2>
-  <p>Kabadi Wala in Nawada • Kabadi Shop in Nawada • Scrap Dealer in Nawada • Scrap Buyer in Nawada • Iron Scrap Buyer • Loha Kabadi</p>
-</section>
+  <!-- Branches -->
+  <section class="card">
+    <h2>🏪 Our 3 Branches</h2>
+    <div class="branch-list">
+      <div class="branch-item">
+        <strong>Branch 1</strong>
+        <p>Ansar Nagar, Nawada, Bihar</p>
+      </div>
+      <div class="branch-item">
+        <strong>Branch 2</strong>
+        <p>2 Number Gate, Bhadauni, Nawada, Bihar</p>
+      </div>
+      <div class="branch-item">
+        <strong>Branch 3</strong>
+        <p>Bareb, Patna Road, Nawada, Bihar</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="card">
+    <h2>♻️ What We Buy</h2>
+    <div class="services-grid">
+      <div class="service-pill">🏗️ Heavy Machinery Scrap</div>
+      <div class="service-pill">🔩 Old Iron Scrap (Loha)</div>
+      <div class="service-pill">📦 Paper & Cardboard</div>
+      <div class="service-pill">🔌 Copper & Metal Scrap</div>
+      <div class="service-pill">🪑 Household & Factory Scrap</div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section class="card">
+    <h2>📞 Contact & Instant Pickup</h2>
+    <p>Call or WhatsApp us directly for heavy scrap evaluation or doorstep pickup arrangement.</p>
+    
+    <div class="phone-group">
+      <a class="btn-action btn-primary" href="tel:+917564026465">📞 Call: 7564026465</a>
+      <a class="btn-action btn-primary" href="tel:+916204192880">📞 Call: 6204192880</a>
+    </div>
+    <div style="margin-top: 10px;">
+      <a class="btn-action btn-whatsapp" style="display: block;" href="https://wa.me/917564026465?text=Hello%20SK%20Scrap%20Traders,%20mujhe%20scrap%20bechna%20hai." target="_blank">💬 Chat on WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- SEO Keywords -->
+  <section class="card">
+    <h2>🔎 Popular Searches</h2>
+    <div class="tags">
+      <span>Heavy Machinery Scrap Nawada</span>
+      <span>Kabadi Wala in Nawada</span>
+      <span>Scrap Dealer in Nawada</span>
+      <span>Iron Scrap Buyer</span>
+      <span>Factory Dismantling Nawada</span>
+    </div>
+  </section>
+
 </main>
 
-<footer>© 2009–2026 S.K Scrap Traders • Nawada, Bihar</footer>
+<div class="sticky-bar">
+  <a class="btn-action btn-primary" href="tel:+917564026465">📞 Call Now</a>
+  <a class="btn-action btn-whatsapp" href="https://wa.me/917564026465?text=Hello%20SK%20Scrap%20Traders,%20mujhe%20scrap%20bechna%20hai." target="_blank">💬 WhatsApp</a>
+</div>
+
+<footer>
+  © 2009–2026 S.K Scrap Traders • Serving Nawada, Bihar
+</footer>
+
 </body>
 </html>
